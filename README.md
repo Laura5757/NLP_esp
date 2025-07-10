@@ -1,2 +1,2 @@
 # NLP_esp
-This repository contains codes for NLP focused on Spanish language
+En este código sae realiza la comparación entre texto y criterio definido. Se espera en el código texto y criterio con patrón o palabras relacionadas al mismo. Se limpia el texto buscando stopwords y palabras en español que podrían afectar la comparación entre el texto y el criterio. En este código se supone que el criterio2 cuenta con un patrón de división el cual debe tener el numerado y denominado relacionados, por lo que tiene una función aparte de limpieza. Se calcula la similitud usando fuzzywuzzy ratio y se compara haciendo búsqueda entre el patrón y el texto limpio.
